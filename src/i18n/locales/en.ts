@@ -56,9 +56,11 @@ export const en: UiTranslations = {
         title: 'Something went wrong',
         message: 'An unexpected error occurred.',
     },
+    pdf: {
+        loading: 'Loading PDF…',
+        error: 'Could not load the PDF.',
+    },
     cv: {
         download: 'Download PDF',
-        loading: 'Loading CV…',
-        error: 'Could not load the CV.',
     },
 }

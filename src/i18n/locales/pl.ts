@@ -54,9 +54,11 @@ export const pl = {
         title: 'Coś poszło nie tak',
         message: 'Wystąpił nieoczekiwany błąd.',
     },
+    pdf: {
+        loading: 'Wczytywanie pliku PDF…',
+        error: 'Nie udało się wczytać pliku PDF.',
+    },
     cv: {
         download: 'Pobierz PDF',
-        loading: 'Wczytywanie CV…',
-        error: 'Nie udało się wczytać CV.',
     },
 }

@@ -23,12 +23,12 @@ export const PdfViewer: FC<PdfViewerProps> = ({ url }) => {
                 loading={
                     <Center py="20" gap="3">
                         <Spinner />
-                        <Text>{t('cv.loading')}</Text>
+                        <Text>{t('pdf.loading')}</Text>
                     </Center>
                 }
                 error={
                     <Center py="20">
-                        <Text color="fg.error">{t('cv.error')}</Text>
+                        <Text color="fg.error">{t('pdf.error')}</Text>
                     </Center>
                 }
             >

@@ -105,6 +105,11 @@ export const enContent: Content = {
             description:
                 'Polynomial arithmetic in dense and sparse representations over any ring or field, with division with remainder and QuickCheck property tests.',
         },
+        oodo: {
+            name: 'oodo',
+            description:
+                'Odoo 18 to KSeF bridge (mocked API): Celery tasks in Django pull posted customer invoices over XML-RPC, submit them to KSeF with retries on failure (exponential backoff, idempotency keys), and write the returned KSeF number back to the invoice. A custom Odoo module adds KSeF number and overdue fields, and invoice statuses are tracked in Django Admin. The FastAPI KSeF mock returns random 503 errors to test resilience.',
+        },
         docagent: {
             name: 'docagent',
             description:

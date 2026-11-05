@@ -189,6 +189,12 @@ export const publications: Publication[] = [
 
 export const otherProjects: Project[] = [
     {
+        name: 'content.projects.oodo.name',
+        description: 'content.projects.oodo.description',
+        tags: ['Odoo', 'Django', 'Celery', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'pytest'],
+        repo: 'https://github.com/sjakubicz/oodo',
+    },
+    {
         name: 'content.projects.docagent.name',
         description: 'content.projects.docagent.description',
         tags: ['FastAPI', 'PostgreSQL', 'pgvector', 'LangGraph', 'RAG', 'React', 'Docker'],

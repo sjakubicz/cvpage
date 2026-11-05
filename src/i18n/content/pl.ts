@@ -103,6 +103,11 @@ export const plContent = {
             description:
                 'Arytmetyka wielomianów w reprezentacji gęstej i rzadkiej, działająca nad dowolnym pierścieniem lub ciałem, z dzieleniem z resztą i testami własności w QuickCheck.',
         },
+        oodo: {
+            name: 'oodo',
+            description:
+                'Integracja Odoo 18 z KSeF (atrapa API): zadania Celery w Django pobierają przez XML-RPC zaksięgowane faktury sprzedażowe, wysyłają je do KSeF z ponawianiem przy błędach (wykładnicze opóźnienie, klucze idempotencji) i zapisują zwrócony numer KSeF z powrotem w fakturze. Własny moduł Odoo dodaje pola numeru KSeF i przeterminowania, a statusy faktur są widoczne w panelu Django Admin. Atrapa KSeF w FastAPI losowo zwraca błędy 503 do testowania odporności.',
+        },
         docagent: {
             name: 'docagent',
             description:
